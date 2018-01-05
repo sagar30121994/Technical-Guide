@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Technical Guide</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string-array name="university">
+        <item>Select University..</item>
+        <item>pune</item>
+        <item>Shivaji</item>
+        <item>Marathwada</item>
+
+    </string-array>
+
+    <string-array name="branch">
+        <item>Select Branch..</item>
+        <item>common</item>
+        <item>CO</item>
+        <item>E&amp;TC</item>
+        <item>CE</item>
+        <item>ME</item>
+        <item>IT</item>
+
+    </string-array>
+
+    <string-array name="year">
+        <item>Select Year..</item>
+        <item>FE</item>
+        <item>SE</item>
+        <item>TE</item>
+        <item>BE</item>
+
+    </string-array>
+    <string name="title_activity_list_home">Technical Guide</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_home">Home</string>
+
+    <string name="action_settings">Settings</string>
+
+
+    <string name="facebook_app_id">Your facebook_app_id</string>
+
+
+</resources>

@@ -1,0 +1,155 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#ffffff"
+    android:layout_height="match_parent"
+    tools:context="sagar.cybernetics.com.technicalguide.fragment.EditProfileFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp">
+
+
+            <ImageView
+                android:id="@+id/displayPicture"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="25dp"
+                android:elevation="8dp" />
+
+            <TextView
+                android:id="@+id/displayName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/displayPicture"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text=""
+                android:textAllCaps="true"
+                android:textColor="#0910ea"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/displayName"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#105dba"
+                android:textSize="15sp"
+
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gender: "
+                android:layout_below="@+id/email"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/email"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:id="@+id/radioGroup">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/male"
+                    android:textAlignment="center"
+
+                    android:text="Male"
+                    />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/femaile"
+                    android:text="Female"
+                    android:textAlignment="center"
+
+                    />
+
+
+
+            </RadioGroup>
+
+            <Spinner
+                android:id="@+id/university"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/radioGroup"
+                android:layout_margin="16dp"
+                android:layout_marginTop="20dp"
+                android:padding="6dp"
+                android:textAlignment="center"
+                >
+
+            </Spinner>
+
+            <Spinner
+                android:id="@+id/branch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/university"
+                android:layout_margin="16dp"
+                android:layout_marginTop="20dp"
+                android:padding="6dp"
+                android:textAlignment="center"
+                >
+
+            </Spinner>
+
+            <Spinner
+                android:id="@+id/year"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/branch"
+                android:layout_margin="16dp"
+                android:layout_marginTop="20dp"
+                android:padding="6dp"
+                android:textAlignment="center"
+                >
+
+            </Spinner>
+
+
+
+
+            <Button
+                android:id="@+id/savebutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/year"
+
+                android:layout_margin="16dp"
+                android:layout_marginRight="60dp"
+                android:text="Save" />
+
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>

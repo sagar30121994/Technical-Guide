@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="green">#33d900</color>
+    <color name="red">#fa081c</color>
+    <color name="question">#0479ff</color>
+    <color name="lime">#6def8f</color>
+    <color name="cardback">#8cfdff</color>
+<color name="white">#FFFF</color>
+</resources>

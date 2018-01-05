@@ -1,0 +1,47 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="sagar.cybernetics.com.technicalguide.fragment.UnitTestFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_marginTop="50dp"
+
+                android:layout_height="wrap_content"
+                android:scrollbars="horizontal"
+                android:elevation="5dp"
+                android:id="@+id/recyclerView">
+            </android.support.v7.widget.RecyclerView>
+
+
+
+            <android.support.v7.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_below="@id/recyclerView"
+                android:layout_height="wrap_content"
+                android:scrollbars="horizontal"
+                android:elevation="5dp"
+                android:layout_marginTop="15dp"
+                android:id="@+id/recyclerView1">
+            </android.support.v7.widget.RecyclerView>
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

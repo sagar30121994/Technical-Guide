@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#ffffff"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:text=" Ooops !!"
+        android:textColor="@color/question"
+        android:textSize="42sp"
+        android:textStyle="bold|italic" />
+
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:background="@drawable/unavailable_data" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:textColor="#111111"
+        android:textStyle="bold"
+        android:text="Looks Like We are Running Out of Data Here.."/>
+
+    <Button
+        android:id="@+id/declineButton"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:text="Okay"
+        android:layout_marginTop="26dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/red"
+        android:elevation="5dp"
+
+        android:layout_gravity="center"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:textColor="#FFFF"
+        android:textSize="13dp"
+
+
+        />
+
+
+</LinearLayout>
